@@ -23,11 +23,11 @@ Déployer une infrastructure cloud automatisée avec :
 
 ##  Étapes réalisées
 
-### 🔹 Étape 1 : Création de la machine de travail
+### Étape 1 : Création de la machine de travail
 - Création d'une instance EC2 (t2.micro, Free Tier)
 - Connexion SSH via PowerShell avec clé `.pem`
 
-### 🔹 Étape 2 : Installation des outils sur la VM
+### Étape 2 : Installation des outils sur la VM
 ```bash
 sudo yum update -y
 sudo yum install -y docker
@@ -41,14 +41,14 @@ sudo yum install terraform -y
 
 ---
 
-### 🔹 Étape 3 : Fichiers Terraform créés
+### Étape 3 : Fichiers Terraform créés
 
 - `provider.tf` : configuration AWS
 - `variables.tf` : définition des variables (nom du cluster, région…)
 - `main.tf` : ressources complètes (VPC, subnets, EKS, node group…)
 - `outputs.tf` : valeurs affichées en sortie
 
-### 🔹 Étape 4 : Déploiement de l’infrastructure
+### Étape 4 : Déploiement de l’infrastructure
 
 ```bash
 terraform init
