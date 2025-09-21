@@ -1,5 +1,5 @@
 
-# Activité 1 – Automatisation du déploiement d’un cluster Kubernetes (EKS) + Service Serverless (Lambda)
+#  Automatisation du déploiement d’un cluster Kubernetes (EKS) + Service Serverless (Lambda)
 ##  Objectif
 Déployer une infrastructure cloud automatisée avec :
 - Un **cluster Kubernetes** (via AWS EKS)
